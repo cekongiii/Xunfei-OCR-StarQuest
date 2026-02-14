@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+../datasets/
+emnist_source_files/
+ocr_result/
+.vscode/
+.env

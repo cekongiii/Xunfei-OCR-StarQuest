@@ -1,0 +1,18 @@
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+
+# 忽略数据集 (因为太大了，别人应该自己去下载)
+../datasets/
+emnist_source_files/
+
+# 忽略测试生成的切片结果 (太多了，没必要传)
+ocr_result/
+
+# 忽略环境配置
+.vscode/
+.env
+
+# ⚠️ 如果你想保留模型文件(letter_ocr_model.h5)就别写下面这行
+# 如果模型太大超过100MB，GitHub会拒收，那时候再加这行
+# *.h5
